@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Libre+Baskerville:wght@700&family=PT+Serif&display=swap" rel="stylesheet">
+   <style> 
+   .heder{
+    background-color: rgb(22, 75, 96);
+   }
+
+   .nav{
+    --bs-nav-link-color: aliceblue;
+   }
+   
+    .naslov{
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        font-size: x-large;
+    }
+    h1{
+        font-size: 200px;
+    }
+    .podnaslov{
+        padding-top: 120px;
+    }
+    
+
+    .blok{
+        height: 350px;
+    }
+    .contact{
+        text-align: center;
+        padding-top: 150px;
+        font-size: 30px;
+    }
+    .email{
+        padding-top: 30px;
+        font-size: 30px;
+
+    }
+    
+    body{
+        color: white;
+        font-size: larger;
+         font-family: 'PT Serif', serif;
+          background: rgb(23,78,99);
+          background: linear-gradient(106deg, rgba(23,78,99,1) 10%, rgba(79,192,208,1) 56%, rgba(162,255,134,1) 98%);
+
+    }
+    .btn{
+        background-color: rgb(22, 75, 96);
+        border-color: rgb(22, 75, 96);
+    }
+    footer{
+        border-top: 3px solid  rgb(134, 255, 184) ;
+        font-size: x-small;
+    }
+   .slika{
+    width: 400px;
+   }
+
+  
+
+   @media (max-width: 700px)   {
+    h1{
+      font-size: 100px;
+    }
+    }
+
+
+    </style> 
+       
+          
+</head>
+
+
+<body>
+  
+    <div class="heder">
+    <div class="container ">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#Hobbies" class="nav-link">Hobbies</a></li>
+            <li class="nav-item"><a href="#Selectedwork" class="nav-link">Selected work</a></li>
+            <li class="nav-item"><a href="#Contact" class="nav-link">Contact me</a></li>
+          </ul>
+        </header>
+      </div>
+    </div>
+    
+  
+      <div class="naslov">
+        <h1> I'm Dajana</h1>
+        <p>Enjoy my website </p>
+      </div>
+
+
+
+      <div class="container"  style="text-align: center;" id="aboutme">
+        <img src="./JA1.jpg" alt="photo of me" style="border-radius: 50%; height: 250px;">
+        <h2>Who am I?</h2>
+        <p class="intro">I'm Dajna Dragnic, a student eager to grow. I really want to become a programmer. I know HTML, CSS, and PHP but I'm taking courses to get even better at them and improve my skills.</p>
+      </div>
+
+      <div style="text-align: center;" class="podnaslov">
+        <h3> Wanna know more about me?</h3>
+        <p>I am: </p>
+      </div>
+
+
+      <div class=" container hobi"  id="Hobbies">
+        <div class="row g-3 pb-5 row-cols-1 row-cols-lg-4 "  >
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-flex-center  text-bg-primary bg-gradient fs-2 mb-3">
+                <div id="carouselExample1" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./animals/hani.jpg" class="d-block blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./animals/gaso.jpg" class="d-block blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./animals/lama.jpg" class="d-block blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./animals/zec.jpg" class="d-block  blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./animals/dogs1.jpg" class="d-block blok  w-100" alt="...">
+                      </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <h3 class="fs-2 ">Animal Lover</h3>
+            <p>My life goal: To pet every animal I come across.</p>
+           
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <div id="carouselExample2" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./vako/vako5.jpg" class="d-block blok  w-100 " alt="...">
+                        </div>
+                      <div class="carousel-item">
+                        <img src="./vako/vako1.jpg" class="d-block blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./vako/vako2.jpg" class="d-block blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./vako/vako4.jpg" class="d-block blok w-100 " alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+            <h3 class="fs-2 ">Boyfriend annoyer</h3>
+            <p> I use all my free time to annoy my boyfriend.</p>
+            
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <div id="carouselExample3" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./nature/nature1.jpg" class="d-block blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./nature/nature2.jpg" class="d-block blok w-100 " alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./nature/nature3.jpg" class="d-block blok w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./nature/nature4.jpg" class="d-block  blok w-100 " alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./nature/nature5.jpg" class="d-block  blok w-100" alt="...">
+                      </div>
+                    
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+            <h3 class="fs-2 ">Hiker</h3>
+            <p>
+                I enjoy hiking and pretending I haven't gotten tired in the meantime.</p>
+             </div>
+             <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <div id="carouselExample4" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./kuvanje/kuvanje1.jpg" class="d-block blok  w-100 " alt="...">
+                          </div>
+                        <div class="carousel-item">
+                          <img src="./kuvanje/kuvanje4.jpg" class="d-block blok w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./kuvanje/kuvanje5.jpg" class="d-block blok w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./kuvanje/kuvanje2.jpg" class="d-block blok w-100 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./kuvanje/kuvanje6.jpg" class="d-block blok w-100 " alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+              </div>
+  
+              <h3 class="fs-2 ">Professional cook</h3>
+              <p>I've recently started getting into cooking, or as I like to say, I'm the new Gordon Ramsay. </p>
+              
+            </div>
+            </div>
+         </div>
+        </div>
+
+        
+
+
+        <div id="Selectedwork">
+            <h3 style="text-align: center;"> Here is my work so far</h3>
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./tindog.png" class="d-block mx-lg-auto img-fluid slika" alt="Bootstrap Themes"  height="400px" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h3 class="display-5 fw-bold  lh-1 mb-3">Tindog</h3>
+            <p class="lead">Class Project to build a website with Bootstrap. Website is about tinder for dogs.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="./11.3 TinDog Project/index.html" target="_blank">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Visit</button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./Mondrian.png" class="d-block mx-lg-auto img-fluid slika " alt="Bootstrap Themes"  height="400px" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h3 class="display-5 fw-bold  lh-1 mb-3">Mondrian Project</h3>
+            <p class="lead">Class Project to recrate an art piece with CSS grid. </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="./10.3 Mondrian Project/index.html" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Visit</button>
+                    </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./igrica.png" class="d-block mx-lg-auto img-fluid slika" alt="Bootstrap Themes"  height=400" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h3 class="display-5 fw-bold  lh-1 mb-3">Doggo eating food</h3>
+            <p class="lead">Simple game evoking the nostalgia of good old times. Created Using Scratch.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="https://scratch.mit.edu/projects/708534452" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Visit</button>
+                  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <div class=" contact container" id="Contact" >
+        <p>
+            If you liked what you saw and want to get in touch with me, here's how you can do it.
+        </p>
+        <div class="email" >
+        <p> My email is: dajanad2907@gmail.com</p>
+        <p> My phone number: 123456 </p>
+        </div>
+      </div>
+
+
+      <div class="container futer" >
+        <footer class="py-3 my-4 ">
+          <p class="text-center ">Copyright © Dajana D. All rights Reserved.</p>
+        </footer>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
